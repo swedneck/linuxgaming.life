@@ -1,5 +1,5 @@
-# t2bot.io
-Website for [t2bot.io](https://t2bot.io). Requires [Gatsby](https://www.gatsbyjs.org).
+# linuxgaming.life
+Website for [linuxgaming.life](https://linuxgaming.life). Requires [Gatsby](https://www.gatsbyjs.org).
 
 # Developing
 
