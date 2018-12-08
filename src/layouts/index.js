@@ -19,15 +19,14 @@ const Header = () => (
                     color: 'white',
                     textDecoration: 'none',
                 }}>
-                    <img src="/img/t2bot-banner.png" style={{margin: 0}} />
+                    <img src="/img/banner.png" style={{margin: 0}} />
                 </Link>
             </h1>
             <div style={{
                 float: "right",
                 marginTop: "0.6rem"
             }}>
-                <div className="nav-link"><a href="https://status.t2bot.io">status.t2bot.io</a></div>
-                <div className="nav-link"><a href="https://matrix.to/#/#help:t2bot.io">#help:t2bot.io</a></div>
+                <div className="nav-link"><a href="https://matrix.to/#/#help:linuxgaming.life">#help:linuxgaming.life</a></div>
             </div>
             <div style={{ clear: 'both' }}></div>
         </div>
@@ -37,11 +36,11 @@ const Header = () => (
 const TemplateWrapper = ({children}) => (
     <div>
         <Helmet>
-            <title>t2bot.io</title>
-            <meta name="description" content="Public bridges, bots, and integrations. Visit #help:t2bot.io for more information."/>
+            <title>linuxgaming.life</title>
+            <meta name="description" content="Public bridges, bots, and integrations. Visit #help:linuxgaming.life for more information."/>
             <meta name="keywords" content="matrix, homeserver, bridges, bots, integrations, public"/>
 
-            <meta property="og:image" content="/img/t2bot-stacked.png"/>
+            <meta property="og:image" content="/img/preview-image.png"/>
             <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet" />
 
             <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png"/>
