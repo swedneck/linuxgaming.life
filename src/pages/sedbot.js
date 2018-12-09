@@ -8,11 +8,11 @@ const SedBotPage = () => (
             Github Repository: <a href="https://github.com/maubot/sed">maubot/sed</a><br/>
         </p>
         <p>
-            <UserPill userId="@sed:linuxgaming.life"/> is a bot that searches and replaces text in a message, and sends it as a reply.
+            <UserPill userId="@sed:linuxgaming.life" img="sed.png" /> is a bot that searches and replaces text in a message, and sends it as a reply.
         </p>
         <h4>Adding the bot to your room</h4>
         <ol>
-            <li>Invite <UserPill userId="@sed:linuxgaming.life"/> to your room</li>
+            <li>Invite <UserPill userId="@sed:linuxgaming.life" img="sed.png" /> to your room</li>
             <li>Send a message with the format <code>s/text to find/text to replace it with/g</code></li>
         </ol>
     </div>

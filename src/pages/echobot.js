@@ -8,11 +8,11 @@ const EchoBotPage = () => (
             Github Repository: <a href="https://github.com/maubot/echo">maubot/echo</a><br/>
         </p>
         <p>
-            <UserPill userId="@echo:linuxgaming.life"/> is a bot that echoes what you say to it.
+            <UserPill userId="@echo:linuxgaming.life" img="echo.png" /> is a bot that echoes what you say to it.
         </p>
         <h4>Adding the bot to your room</h4>
         <ol>
-            <li>Invite <UserPill userId="@echo:linuxgaming.life"/> to your room</li>
+            <li>Invite <UserPill userId="@echo:linuxgaming.life" img="echo.png" /> to your room</li>
             <li>Send a message starting with <code>!echo</code>, followed by the message you want it to echo.</li>
         </ol>
     </div>
