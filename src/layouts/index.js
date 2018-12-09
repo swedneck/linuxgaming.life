@@ -5,10 +5,7 @@ import Helmet from "react-helmet";
 import "./index.css";
 
 const Header = () => (
-    <div style={{
-        background: '#29395c',
-        marginBottom: '1.2rem',
-    }}>
+    <nav>
         <div style={{
             margin: '0 auto',
             maxWidth: 960,
@@ -30,7 +27,7 @@ const Header = () => (
             </div>
             <div style={{ clear: 'both' }}></div>
         </div>
-    </div>
+    </nav>
 );
 
 const TemplateWrapper = ({children}) => (
