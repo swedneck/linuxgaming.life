@@ -5,7 +5,7 @@ const DiscordPage = () => (
         <h2>Discord Bridge</h2>
         <p>The Discord bridge requires the Guild/Server owner to approve the integration for bridging to work.</p>
         <ol>
-            <li>Invite the bridge to your Discord guild using <a href="https://discordapp.com/oauth2/authorize?client_id=504324107765284864&scope=bot&permissions=607251456" target="_blank">this link</a>. The bridge will need all the permissions selected.</li>
+            <li>Invite the bridge to your Discord guild using <a href="https://discordapp.com/api/oauth2/authorize?client_id=521462970803421194&scope=bot&permissions=607251456" target="_blank">this link</a>. The bridge will need all the permissions selected.</li>
             <li>Invite <a href="https://matrix.to/#/@discord:linuxgaming.life" target="_blank">@discord:linuxgaming.life</a> to your matrix room. The bot should have permissions to invite users.</li>
             <li>Open the channel you'd like to bridge in the Discord web application</li>
             <li>

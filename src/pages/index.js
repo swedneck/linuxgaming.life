@@ -9,13 +9,6 @@ const IndexPage = () => (
         <p>If you're unsure of how to set anything up, or have any questions/requests, please visit <a
             href="https://matrix.to/#/#help:linuxgaming.life">#help:linuxgaming.life</a> in matrix.</p>
 
-				<h3 className="t2-sectionHeader">Riot</h3>
-				<p>linuxgaming.life hosts its own instance of <a href="https://riot.im">riot</a>, the flagship matrix client. It is served via <a href="https://ipfs.io">IPFS</a></p>
-				<a href="https://riot.linuxgaming.life"><div className="t2-integration">
-					<img src="img/logos/riot.png" />
-					<strong className="title">Riot</strong>
-				</div></a>
-
         <h3 className="t2-sectionHeader">Bridges</h3>
         <p>Bridges allow people on other platforms to interact with matrix users, and vice-versa.</p>
         {/*<div className="t2-integration">
@@ -98,12 +91,20 @@ const IndexPage = () => (
             <strong className="title"><Link to="/hyperbot">Hyperbot</Link></strong>
         </div>*/}
 
-        {/*<h3 className="t2-sectionHeader">Other services</h3>
+        <h3 className="t2-sectionHeader">Other services</h3>
         <p>Not everything linuxgaming.life runs is a bot or bridge. Here's everything else that may be of interest.</p>
-        <div className="t2-integration">
-            <img src="/img/logos/mx-dimension.png"/>
-            <strong className="title"><Link to="/dimension">Dimension</Link></strong>
-        </div>*/}
+				<a href="https://riot.linuxgaming.life"><div className="t2-integration">
+					<img src="img/logos/riot.png" />
+					<strong className="title">Riot</strong>
+				</div></a>
+				<a href="https://health.linuxgaming.life"><div className="t2-integration">
+					<img src="img/logos/health.png" />
+					<strong className="title">Health monitoring</strong>
+				</div></a>
+				<a href="dimension"><div className="t2-integration">
+					<img src="img/logos/mx-dimension.png"/>
+					<strong className="title">Dimension</strong>
+				</div></a>
     </div>
 );
 

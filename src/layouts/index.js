@@ -24,6 +24,7 @@ const Header = () => (
                 marginTop: "0.6rem"
             }}>
                 <div className="nav-link"><a href="https://matrix.to/#/#help:linuxgaming.life">#help:linuxgaming.life</a></div>
+								<div className="nav-link"><a href="https://matrix.to/#/+community:linuxgaming.life">+community:linuxgaming.life</a></div>
             </div>
             <div style={{ clear: 'both' }}></div>
         </div>
